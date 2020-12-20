@@ -1,4 +1,4 @@
-
+/* general styling for body of page */
 body {
   font-family: sans-serif;
   background-color: #b6bab7;
@@ -10,6 +10,7 @@ body {
   padding-right: 20px;
 }
 
+/* styling for header */
 header {
   text-align: center;
   font-size: 22px;
@@ -18,6 +19,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/*styling for 'card' */
 .card {
   text-align: center;
   background-color: hsl(0, 0%, 100%);
@@ -43,9 +45,11 @@ header {
   min-height: 100px;
 }
 
+/* footer styling */
 .card-footer {
   text-align: center;
 }
+
 .card-footer::before {
   content: " ";
   display: block;
@@ -59,6 +63,8 @@ header {
   display: block;
   clear: both;
 }
+
+/* styling for 'generate password button */
 .btn {
   border: none;
   width: 50%;
@@ -76,7 +82,7 @@ header {
   cursor: pointer;
 }
 
-button:[disabled] {
+button:hover {
   cursor: default;
   background: #c0c7cf;
   cursor: pointer;
@@ -108,7 +114,7 @@ button:[disabled] {
   overflow: hidden;
 }
 
-
+/* media styling for mobile devices & tablets */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
