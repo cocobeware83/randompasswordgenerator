@@ -1,7 +1,7 @@
-// Assignment code here
+
 document.querySelector("#generate").addEventListener("click",writePassword);
 
-// character arrays for password 'complications'
+// character strings for password 'complications'
 var alphabetLOWER = [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var alphabetUPPER = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var specialCharacters = ["~","!", "@","#","$","%","^","&","*","(",")","-","+","=","[","]","{","}","/","<", ">","?",];
@@ -20,7 +20,7 @@ var confirmNumbers;
 function generatePassword() {
   var confirmLength = (prompt("Hi! Your Password can contain between 8 - 128 characters.  Please input your preference in the form of a number."));
 
-//confirms that you have made a between 8 & 128 characters alerts you if you have made an incorrect choice and allows you to retry 
+//confirms that you have made a choice between 8 & 128 characters alerts you if you have made an incorrect choice and allows you to retry 
 while(confirmLength <= 7 || confirmLength >= 129) {
   alert("You have to choose a number between 8 & 128");
   var confirmLength = (prompt("Hi! Your Password can contain between 8 - 128 characters.  Please input your preference in the form of a number."));
