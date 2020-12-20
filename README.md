@@ -11,15 +11,14 @@
 
 ## Screenshot of Deployed Application
 
-
+![Screenshot (17)](https://user-images.githubusercontent.com/72768374/102720643-33c81400-42bb-11eb-97e8-14b629f2aa77.png)
 
 ## General Overview
-This application is a password generator.  In compliance with the parameters set in place for the assignment.  The password generator has five levels of 'complication'.  It can include:
+This is a random password generator.  The user can select password length between 8-128 characters and four additional levels of 'complication'.  It can also include:
 1. Uppercase Letters
 2. Lowercase Letters
 3. Numbers
 4. Special Characters
-5. Between 8 - 128 Characters total
 
 Once all of these criteria are answered, the application will produce a random password.
 
