@@ -10,6 +10,12 @@ var numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+var confirmLength = [];
+var confirmLowerCase;
+var confirmUpperCase;
+var confirmSpecialCharacters;
+var confirmNumbers;
+
 
 // Write password to the #password input
 function writePassword() {
